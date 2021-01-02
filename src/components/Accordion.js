@@ -29,9 +29,12 @@ const Accordion = ({ items }) => {
     })
 
     return (
-        <div className="ui styled accordion">
-            {renderedItems}
+        <div className="ui container">
+            <div className="ui styled accordion">
+                {renderedItems}
+            </div>
         </div>
+        
     )
 };
 
