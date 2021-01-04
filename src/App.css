@@ -26,6 +26,10 @@ body {
     background-attachment: fixed;
 }
 
+.container {
+    margin-top: 5vh;
+}
+
 .ui.form {
     color: #d4d4d4;
 }
