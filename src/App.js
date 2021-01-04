@@ -5,6 +5,7 @@ import Dropdown from './components/Dropdown';
 import Translate from './components/Translate';
 import Route from './components/Route';
 import Header from './components/Header';
+import './App.css';
 
 const items = [
     {
@@ -40,7 +41,7 @@ export default () => {
     const [selected, setSelected] = useState(options[0]);
 
     return (
-        <div>
+        <div className="ui container">
             <Header />
             <Route path="/">
                 <Accordion items={items} />
